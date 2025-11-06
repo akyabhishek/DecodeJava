@@ -41,7 +41,7 @@ DecodeJava/
 │   │       ├── Employee.java
 │   │       ├── IdComparator.java
 │   │       └── SalaryComparator.java
-│   ├── functionalInterfaces/              # Built-in functional interfaces
+│   ├── lambda.functionalInterfaces/              # Built-in functional interfaces
 │   │   ├── ConsumerInterface.java         # Consumer examples
 │   │   ├── FunctionInterface.java         # Function examples
 │   │   ├── PredicateInterface.java        # Predicate examples
@@ -101,7 +101,7 @@ DecodeJava/
 - Functional interface implementation
 - Parameter inference in lambda expressions
 
-### 2. Functional Interfaces (`functionalInterfaces/`)
+### 2. Functional Interfaces (`lambda.functionalInterfaces/`)
 - **Predicate**: Testing conditions with `test()`, `and()`, `negate()`
 - **Consumer**: Consuming data without returning values
 - **Function**: Transforming input to output

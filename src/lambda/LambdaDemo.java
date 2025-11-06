@@ -8,7 +8,7 @@ public class LambdaDemo {
         FuncInter funcInter = new FuncInterImp();
         funcInter.sayHello();
 
-        //Anonymous Class Implementation
+        //Anonymous Class Implementations
         FuncInter funcInter1 = new FuncInter() {
             @Override
             public void sayHello() {

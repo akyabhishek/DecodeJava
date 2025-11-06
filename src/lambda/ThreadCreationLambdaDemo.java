@@ -1,6 +1,6 @@
 package lambda;
 
-public class ThreadCreationDemo {
+public class ThreadCreationLambdaDemo {
     public static void main(String[] args) {
         //using anonymous class
         Runnable runnable1=new Runnable() {
@@ -35,5 +35,22 @@ public class ThreadCreationDemo {
         Thread thread2=new Thread(runnable2);
         thread2.setName("Thread-2");
         thread2.start();
+
+        Thread thread3= new Thread(()-> System.out.println("Hello from Thread-3"));
+        thread3.setName("Thread-3");
+        thread3.start();
+
+        Thread thread4=new Thread(()->{
+            for(int i=0;i<5;i++){
+                System.out.println("Thread-4: "+i);
+                try {
+                    Thread.sleep(1500);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+        });
+        thread4.setName("Thread-4");
+        thread4.start();
     }
 }
