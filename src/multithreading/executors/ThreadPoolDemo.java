@@ -1,4 +1,4 @@
-package multithreading;
+package multithreading.executors;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -17,9 +17,11 @@ public class ThreadPoolDemo {
             });
         }
 
+        System.out.println("Is terminated: "+executorService.isTerminated());
         executorService.shutdown();
         executorService.awaitTermination(10, TimeUnit.MINUTES);
         System.out.println("All tasks submitted.");
+        System.out.println("Is terminated: "+executorService.isTerminated());
         long endTime = System.currentTimeMillis();
 
         System.out.println("Total Time Taken: " + (endTime - startTime) + " ms");
