@@ -8,68 +8,68 @@ This hierarchy helps developers understand which problems can be handled (except
 
 ## 🧩 Throwable Hierarchy (Simplified)
 
-java.lang.Object
-└── java.lang.Throwable
-├── java.lang.Error
-│ ├── AssertionError
-│ ├── AWTError
-│ ├── LinkageError
-│ │ ├── BootstrapMethodError
-│ │ ├── ClassCircularityError
-│ │ ├── ClassFormatError
-│ │ ├── ExceptionInInitializerError
-│ │ ├── IncompatibleClassChangeError
-│ │ │ ├── AbstractMethodError
-│ │ │ ├── IllegalAccessError
-│ │ │ ├── InstantiationError
-│ │ │ └── NoSuchFieldError
-│ │ ├── NoClassDefFoundError
-│ │ └── UnsatisfiedLinkError
-│ ├── ThreadDeath
-│ ├── VirtualMachineError
-│ │ ├── InternalError
-│ │ ├── OutOfMemoryError
-│ │ ├── StackOverflowError
-│ │ ├── UnknownError
-│ │ └── OutOfMemoryError
-│ └── IOError
-│
-└── java.lang.Exception
-├── IOException
-│ ├── FileNotFoundException
-│ ├── EOFException
-│ ├── InterruptedIOException
-│ └── SocketException
-│ ├── BindException
-│ ├── ConnectException
-│ ├── NoRouteToHostException
-│ └── PortUnreachableException
-├── SQLException
-├── ClassNotFoundException
-├── CloneNotSupportedException
-├── InterruptedException
-├── InvocationTargetException
-├── NoSuchMethodException
-├── TimeoutException
-├── RuntimeException
-│ ├── ArithmeticException
-│ ├── ArrayStoreException
-│ ├── ClassCastException
-│ ├── EnumConstantNotPresentException
-│ ├── IllegalArgumentException
-│ │ ├── NumberFormatException
-│ │ └── NullPointerException
-│ ├── IllegalStateException
-│ ├── IndexOutOfBoundsException
-│ │ ├── ArrayIndexOutOfBoundsException
-│ │ └── StringIndexOutOfBoundsException
-│ ├── NegativeArraySizeException
-│ ├── SecurityException
-│ ├── UnsupportedOperationException
-│ ├── MissingResourceException
-│ ├── TypeNotPresentException
-│ ├── NullPointerException
-│ └── ConcurrentModificationException
+java.lang.Object  
+└── java.lang.Throwable  
+    ├── java.lang.Error  
+    │ ├── AssertionError  
+    │ ├── AWTError  
+    │ ├── LinkageError  
+    │ │ ├── BootstrapMethodError  
+    │ │ ├── ClassCircularityError  
+    │ │ ├── ClassFormatError  
+    │ │ ├── ExceptionInInitializerError  
+    │ │ ├── IncompatibleClassChangeError  
+    │ │ │ ├── AbstractMethodError  
+    │ │ │ ├── IllegalAccessError  
+    │ │ │ ├── InstantiationError  
+    │ │ │ └── NoSuchFieldError  
+    │ │ ├── NoClassDefFoundError  
+    │ │ └── UnsatisfiedLinkError  
+    │ ├── ThreadDeath  
+    │ ├── VirtualMachineError  
+    │ │ ├── InternalError  
+    │ │ ├── OutOfMemoryError  
+    │ │ ├── StackOverflowError  
+    │ │ ├── UnknownError  
+    │ │ └── OutOfMemoryError  
+    │ └── IOError  
+    │  
+    └── java.lang.Exception  
+    ├── IOException  
+    │ ├── FileNotFoundException  
+    │ ├── EOFException  
+    │ ├── InterruptedIOException  
+    │ └── SocketException  
+    │ ├── BindException  
+    │ ├── ConnectException  
+    │ ├── NoRouteToHostException  
+    │ └── PortUnreachableException  
+    ├── SQLException  
+    ├── ClassNotFoundException  
+    ├── CloneNotSupportedException  
+    ├── InterruptedException  
+    ├── InvocationTargetException  
+    ├── NoSuchMethodException  
+    ├── TimeoutException  
+    ├── RuntimeException  
+    │ ├── ArithmeticException  
+    │ ├── ArrayStoreException  
+    │ ├── ClassCastException  
+    │ ├── EnumConstantNotPresentException  
+    │ ├── IllegalArgumentException  
+    │ │ ├── NumberFormatException  
+    │ │ └── NullPointerException  
+    │ ├── IllegalStateException  
+    │ ├── IndexOutOfBoundsException  
+    │ │ ├── ArrayIndexOutOfBoundsException  
+    │ │ └── StringIndexOutOfBoundsException  
+    │ ├── NegativeArraySizeException  
+    │ ├── SecurityException  
+    │ ├── UnsupportedOperationException  
+    │ ├── MissingResourceException  
+    │ ├── TypeNotPresentException  
+    │ ├── NullPointerException  
+    │ └── ConcurrentModificationException  
 
 
 ---
